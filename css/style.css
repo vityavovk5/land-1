@@ -87,6 +87,7 @@ nav {
     line-height: 22px;
   }
   a.btm-1 {
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
     text-transform: uppercase;
     color: white;
     background-color: #ff6033;
@@ -101,6 +102,7 @@ nav {
     border: 2px solid #ff6033;
   }
   a.btm-2 {
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
     text-transform: uppercase;
     color: white;
     background-color: #5585a2;
@@ -113,6 +115,23 @@ nav {
     background-color: white;
     color:#5585a2;
     border: 2px solid #5585a2;
+  }
+.bl-5-buttom {
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    text-transform: uppercase;
+    color: white;
+    background-color: #96b92c;
+    padding: 22px 30px;
+    text-decoration: none;
+    border: 2px solid #fff;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 25px;
+  }
+  .bl-5-buttom:hover {
+    background-color: white;
+    color:#96b92c;
+    border: 2px solid #96b92c;
   }
   .mar-btn {
       margin-bottom: 45px;
@@ -242,3 +261,11 @@ height: 790px;
     padding-left: 20px;
     font-weight: 600;
 }
+.bl-5-input {
+    width: 570px;
+    height: 55px;
+    line-height: 55px;
+    border: 2px solid black;
+    padding-left: 15px;
+}
+ 
