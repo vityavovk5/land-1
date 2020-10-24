@@ -116,6 +116,21 @@ nav {
     color:#5585a2;
     border: 2px solid #5585a2;
   }
+  a.btm-3 {
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    text-transform: uppercase;
+    color: white;
+    background-color: #f72b3b;
+    padding: 20px 30px;
+    text-decoration: none;
+    border: 2px solid #fff;
+    font-weight: 600;
+  }
+  a.btm-3:hover {
+    background-color: white;
+    color:#f72b3b;
+    border: 2px solid #f72b3b;
+  }
 .bl-5-buttom {
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
     text-transform: uppercase;
@@ -268,4 +283,87 @@ height: 790px;
     border: 2px solid black;
     padding-left: 15px;
 }
- 
+#blog {
+    background-color: #b07cf7;
+    color: white;
+    padding-top: 100px;
+    height: 730px;
+}
+
+h1 {
+    font-size: 120px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.main-text2 > p {
+    font-size: 22px;
+    text-align: center;
+    margin: 30px 0 45px;
+}
+.blog {
+    width: 1170px;
+    margin: 0 auto;
+}
+.main-text2 {
+    width: 570px;
+    margin: 0 auto;
+}
+.card {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.card > div:hover {
+    box-shadow: 0 5px 40px hsl(128deg 74% 47%), -5px 5px 10px hsl(24deg 37% 65%), 5px -5px 10px hsl(35deg 10% 38%), 5px 0 10px hsl(29deg 82% 76%);
+    transition: all .3s ease-in;
+}
+.card-1 {
+    width: 370px;
+    height: 310px;
+    background: url(../img/image-1.jpg) center no-repeat;
+    display: grid;
+   
+}
+.card-2 {
+    width: 370px;
+    height: 310px;
+    background: url(../img/image-2.jpg) center no-repeat;
+    display: grid;
+}
+.card-3 {
+    width: 370px;
+    height: 310px;
+    background: url(../img/image-3.jpg) center no-repeat;
+    display: grid;
+}
+.data {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-size: 23px;
+    font-family: cursive;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.content {
+    margin: 30px 20px;
+    display: grid;  
+}
+.description {
+    align-self: end;
+    font-family: cursive;
+}
+.text {
+    text-shadow: -5px 1px 8px #000000, 0 0 3em #000000;
+    font-size: 26px;
+    font-weight: 600;
+}
+.time {
+ opacity: 0.6;
+}
+
