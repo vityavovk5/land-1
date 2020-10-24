@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+nav {
+  width: 100%;
+  background-color: #f9f8fb;
+  position: sticky;
+  top: 0px;
+  height: 60px;
+  padding-bottom: 20px;
+}
+.nav-wrap {
+   
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    margin: 0 auto;
+}
+.nav {
+    width: 570px;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    align-self: flex-end; 
+}
+.nav > div > a {
+    text-decoration: none;
+    color: black;
+    border-top: 5px solid transparent;
+    padding-top: 10px;
+}
+.nav > div > a:hover {
+    border-top: 5px solid #ff6033;
+    padding-top: 10px;
+  
+    -webkit-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+       transition: all .7s ease-in-out;
+}
+ 
+#fresh {
+    background: url(../img/bg-1.jpg) center no-repeat #f9f8fb;
+    height: 1000px;
+    margin-top: -80px;
+}
+.bl-1 {
+    padding-top: 50px;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+@keyframes animate {
+    0% {
+      top: calc(50% - 2px);
+      left: -100%;
+      height: 4px;
+      z-index: 1;
+    }
+    50% {
+      top: calc(50% - 2px);
+      left: 0;
+      height: 4px;
+      z-index: 1;
+    }
+    100% {
+      top: 0;
+      left: 0;
+      height: 100%;
+      z-index: -1;
+    }
+  }
+  .bl-1-text {
+      margin-top: 260px;
+      width: 370px;
+  }
+  .title {
+    font-size: 80px;
+    font-weight: 600;
+    margin: 0;
+  }
+  .main-text {
+      font-size: 18px;
+    line-height: 22px;
+  }
+  a.btm-1 {
+    text-transform: uppercase;
+    color: white;
+    background-color: #ff6033;
+    padding: 20px 30px;
+    text-decoration: none;
+    border: 2px solid #fff;
+    font-weight: 600;
+  }
+  a.btm-1:hover {
+    background-color: white;
+    color: #ff6033;
+    border: 2px solid #ff6033;
+  }
+  a.btm-2 {
+    text-transform: uppercase;
+    color: white;
+    background-color: #5585a2;
+    padding: 20px 30px;
+    text-decoration: none;
+    border: 2px solid #fff;
+    font-weight: 600;
+  }
+  a.btm-2:hover {
+    background-color: white;
+    color:#5585a2;
+    border: 2px solid #5585a2;
+  }
+  .mar-btn {
+      margin-bottom: 45px;
+  }
+  .scroll {
+      margin-top: 395px;
+      width: 25px;
+      margin-left: 585px;
+     
+  }
+  #about {
+      background-color: #00b0b0;
+      height: 700px;
+  }
+  .bl-2 {
+    width: 1170px;
+    margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+  }
+  .bl-wrap-1 {
+      width: 570px;
+  }
+  .bl-wrap-2 {
+    margin-top: 180px;
+    width: 500px;
+    color: white;
+}
+.bl-wrap-3 {
+    margin-top: 350px;
+    width: 490px;
+    color: white;
+}
+#servises {
+ 
+background: url(../img/bg-3.jpg) center no-repeat #70bfff;
+height: 790px;
+}
+.bl-3 {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.bl-3-wrap {
+    width: 50%;
+}
+.bl-3-title {
+    color: white;
+    margin: auto;
+}
+.serv-menu {
+    width: 400px;
+    height: 100px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    box-shadow: 0 0 50px rgba(0,0,0,0.5);
+}
+.menu-text {
+    padding-top: 37px;
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+.menu-img {
+    width: 100px;
+    border-left: 1px solid #9D9D9D;
+}
+.menu-img > img {
+    padding: 23px;
+}
+.mar-top {
+    margin-top: 180px;
+}
+#gallery {
+    background-color: #FFE92F;
+    height: 1535px;
+}
+.bl-4 {
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.bl-4-text {
+    width: 600px;
+    margin: 0 auto;
+}
+.bl-4-gallery {
+    display: flex;
+    justify-content: space-between;
+}
+.gallety-main {
+    width: 770px;
+    height: 554px;
+    margin-bottom: 30px;
+}
+.gallety-small {
+    width: 370px;
+    height: 260px;
+}
+.small-img {
+    margin-bottom: 30px;
+}
+.gallety-btn {
+    width: 570px;
+    height: 400px;
+    padding-bottom: 80px;
+}
+.img-width {
+    width: 100%;
+    height: 100%;
+}
+#subscribe {
+    background: url(../img/bg-5.jpg) center no-repeat #ffffff;
+    height: 500px;
+}
+.bl-5 {
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 145px;
+}
+.bl-5-title {
+    font-size: 50px;
+    padding-left: 20px;
+    font-weight: 600;
+}
