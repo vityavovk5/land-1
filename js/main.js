@@ -31,7 +31,7 @@ function validate(full_form,email) {
         });
     });
 });
-//
+// маска для поля телефон
 jQuery(function($){
     $("#tel").mask("+38(999) 999-99-99");
     });
